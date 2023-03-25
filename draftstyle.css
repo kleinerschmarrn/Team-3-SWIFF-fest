@@ -1,0 +1,126 @@
+:root {
+  height: 100%;
+  background-color: black;
+}
+
+header {
+  border-top: 10vh solid black;
+  border-bottom: 0px;
+  margin: 0px;
+  border-top: 2vh solid black;
+  border-bottom: 0px;
+}
+
+/* navigation bar styling starts */
+
+.button {
+  align-items: end !important;
+}
+
+.w-100 {
+  padding-bottom: 0.8rem;
+}
+
+.navbar {
+  /* size of hamburger icon */
+  --bs-navbar-toggler-font-size: 2rem;
+}
+
+.nav-link {
+  --bs-nav-link-color: #ff914d;
+  --bs-navbar-nav-link-padding-x: 3rem;
+  font-family: "Barlow Semi Condensed";
+  --bs-nav-link-font-size: 1.3rem;
+}
+
+.navbar-dark {
+  --bs-navbar-toggler-border-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='darkorange' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  align-items: end;
+}
+
+.navbar ul {
+  background-color: black;
+  text-align: center;
+  padding-inline-start: 1.5vw;
+  padding-bottom: 3vh;
+}
+
+.navbar li {
+  position: relative;
+  display: inline;
+  overflow: auto;
+}
+
+.navbar li a {
+  font-family: "Barlow Semi Condensed";
+  font-size: 1rem;
+  list-style-type: none;
+  text-decoration: none;
+  color: #ff914d;
+  padding: 1vw 5vw;
+}
+
+/* navigation bar styling ends */
+
+/* footer styling starts */
+
+footer {
+  background-color: black;
+  margin: 0;
+  padding-bottom: 144px;
+}
+
+/* social media buttons */
+
+footer .SM-buttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer .SM-buttons img {
+  height: 9vw;
+  margin-top: 2vh;
+  border-radius: 20vh;
+  display: inline;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+}
+
+footer .SM-buttons a {
+  text-decoration: none;
+}
+
+/* footer styling ends */
+
+/* media query - to change the styling when the screen size is greater than 768px */
+
+@media only screen and (min-width: 768px) {
+  footer .SM-buttons img {
+    height: 65px;
+    margin-top: 2vh;
+    border-radius: 20vh;
+    display: inline;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+  }
+
+  .navbar li a {
+    font-family: "Barlow Semi Condensed";
+    font-size: 2vw;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ff914d;
+    padding: 1vw 5vw;
+  }
+}
