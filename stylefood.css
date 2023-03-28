@@ -8,10 +8,6 @@ header {
   margin: 0px;
 }
 
-.w-100 {
-  padding-bottom: 0.5rem;
-}
-
 .button {
   align-items: end !important;
 }
@@ -101,8 +97,8 @@ header {
   height: 20rem;
   object-fit: cover;
   padding-bottom: 1.5rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: none;
+  padding-left: none;
 }
 
 body {
@@ -112,8 +108,8 @@ body {
 .row {
   --bs-gutter-x: 2rem;
   --bs-gutter-y: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 h1 {
@@ -135,8 +131,9 @@ h2 {
 .col-md-6 {
   font-family: "Barlow Semi Condensed";
   font-size: 1.5rem;
-  font-weight: 900;
-  color: #000000 !important;
+  letter-spacing: 0.04em;
+  font-weight: 900 !important;
+  color: #cd3300 !important;
   padding-bottom: 3rem;
 }
 
@@ -154,6 +151,67 @@ p {
   margin-left: 1.5vw;
   margin-right: 1.5vw;
 }
+
+/* traders - textbox and carousel starts */
+
+div.carousel-container {
+  display: grid;
+  padding: 0rem !important;
+  margin: 0rem !important;
+  max-width: 100% !important;
+}
+
+div.left {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  background-color: #cd3300;
+  padding: 0.5rem !important;
+}
+
+div.right {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  margin: 0rem !important;
+  padding: 0rem !important;
+}
+
+div.bottom {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  background-color: #f2bd7c;
+  margin-top: 1rem !important;
+  padding: 0rem !important;
+}
+
+.carousel-item img {
+  height: 20rem;
+  max-width: 100%;
+  object-fit: cover;
+  padding: 0rem !important;
+}
+
+div.carousel-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  color: white;
+  font-family: "Barlow Semi Condensed";
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+div.carousel-container p {
+  line-height: 1.6rem;
+  font-size: 1rem;
+  font-family: "Barlow Semi Condensed";
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-left: 2.5em;
+  padding-right: 2.5rem;
+}
+
+/* traders - textbox and carousel ends */
 
 footer {
   background-color: black;
@@ -201,11 +259,158 @@ footer .SM-buttons a {
     padding: 1vw 5vw;
   }
 
-  /*
-  .carousel-item img {
-    height: 50vw !important;
-    width: 70vw !important;
-    margin: auto;
+  /* traders - textbox and carousel starts */
+
+  div.carousel-container {
+    display: grid;
+    grid-template-columns: 40% 60% auto;
+    padding: 0rem !important;
+    margin: 0rem !important;
+    width: 100% !important;
   }
-  */
+
+  div.left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #cd3300;
+    padding: 0rem !important;
+  }
+
+  div.right {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin: 0rem !important;
+    padding: 0rem !important;
+  }
+
+  div.bottom {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #f2bd7c;
+    margin-top: 1rem !important;
+    padding: 0rem !important;
+  }
+
+  .carousel-item img {
+    height: 27rem;
+    max-width: 100%;
+    object-fit: cover;
+    padding: 0rem !important;
+  }
+
+  div.carousel-container h1 {
+    text-align: center;
+    font-size: 4.3rem;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    color: white;
+    font-family: "Barlow Semi Condensed";
+    margin-top: 10rem;
+    margin-bottom: 1.3rem;
+  }
+
+  div.carousel-container p {
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-family: "Barlow Semi Condensed";
+    letter-spacing: 0.04em;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+
+  /* traders - textbox and carousel ends */
+}
+
+@media only screen and (min-width: 1024px) {
+  footer .SM-buttons img {
+    height: 65px;
+    margin-top: 2vh;
+    border-radius: 20vh;
+    display: inline;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+  }
+
+  .navbar li a {
+    font-family: "Barlow Semi Condensed";
+    font-size: 2vw;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ff914d;
+    padding: 1vw 5vw;
+  }
+
+  /* traders - textbox and carousel starts */
+
+  div.carousel-container {
+    display: grid;
+    grid-template-columns: 40% auto;
+    padding: 0rem !important;
+    margin: 0rem !important;
+    width: 100% !important;
+  }
+
+  div.left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #cd3300;
+    padding: 0rem !important;
+  }
+
+  div.right {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin: 0rem !important;
+    padding: 0rem !important;
+  }
+
+  div.bottom {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #f2bd7c;
+    margin-top: 1rem !important;
+    padding: 0rem !important;
+  }
+
+  .carousel-item img {
+    height: 30rem;
+    max-width: 100%;
+    object-fit: cover;
+    padding: 0rem !important;
+  }
+
+  div.carousel-container h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    color: white;
+    font-family: "Barlow Semi Condensed";
+    margin-top: 10rem;
+    margin-bottom: 1.3rem;
+  }
+
+  div.carousel-container p {
+    line-height: 2.4rem;
+    font-size: 1.5rem;
+    font-family: "Barlow Semi Condensed";
+    letter-spacing: 0.05em;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+
+  /* traders - textbox and carousel ends */
 }
