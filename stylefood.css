@@ -102,7 +102,7 @@ header {
 }
 
 body {
-  background-color: #f2bd7c !important;
+  background-color: #ffd6a3 !important;
 }
 
 .row {
@@ -129,19 +129,19 @@ h2 {
 }
 
 .col-md-6 {
-  font-family: "Barlow Semi Condensed";
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   letter-spacing: 0.04em;
   font-weight: 900 !important;
-  color: #cd3300 !important;
-  padding-bottom: 3rem;
+  color: #852100 !important;
 }
 
 .col-description {
-  font-family: "Barlow Semi Condensed";
+  font-family: sans-serif;
   font-size: 1rem;
   color: #3a3a3a !important;
-  padding: 0px;
+  padding-top: 0.7rem;
+  padding-bottom: 1rem;
 }
 
 p {
@@ -164,7 +164,7 @@ div.carousel-container {
 div.left {
   grid-column-start: 1;
   grid-column-end: 1;
-  background-color: #cd3300;
+  background-color: #691a00;
   padding: 0.5rem !important;
 }
 
@@ -178,7 +178,7 @@ div.right {
 div.bottom {
   grid-column-start: 1;
   grid-column-end: 1;
-  background-color: #f2bd7c;
+  background-color: #ffd6a3;
   margin-top: 1rem !important;
   padding: 0rem !important;
 }
@@ -274,7 +274,6 @@ footer .SM-buttons a {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
-    background-color: #cd3300;
     padding: 0rem !important;
   }
 
@@ -292,7 +291,7 @@ footer .SM-buttons a {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
-    background-color: #f2bd7c;
+    background-color: #ffd6a3;
     margin-top: 1rem !important;
     padding: 0rem !important;
   }
@@ -351,7 +350,6 @@ footer .SM-buttons a {
 
   div.carousel-container {
     display: grid;
-    grid-template-columns: 40% auto;
     padding: 0rem !important;
     margin: 0rem !important;
     width: 100% !important;
@@ -362,7 +360,6 @@ footer .SM-buttons a {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
-    background-color: #cd3300;
     padding: 0rem !important;
   }
 
@@ -380,9 +377,9 @@ footer .SM-buttons a {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
-    background-color: #f2bd7c;
-    margin-top: 1rem !important;
-    padding: 0rem !important;
+    background-color: #ffd6a3;
+    padding-top: 2rem !important;
+    margin: 0rem !important;
   }
 
   .carousel-item img {
@@ -400,7 +397,6 @@ footer .SM-buttons a {
     color: white;
     font-family: "Barlow Semi Condensed";
     margin-top: 10rem;
-    margin-bottom: 1.3rem;
   }
 
   div.carousel-container p {
