@@ -98,9 +98,10 @@ body {
 
 .pimg1 {
   background-image: url("Images/Background_Image.jpeg");
-  height: 50rem;
+  height: 30rem;
   object-fit: cover;
   background-repeat: no-repeat;
+  margin-bottom: 2rem;
 }
 
 .pimg2 {
@@ -115,15 +116,14 @@ body {
 #slider {
   height: 25rem;
   display: flex;
-  border: none;
+  background-color: rgb(0, 0, 0);
   justify-content: center;
   align-items: center;
 }
 
 .container {
   max-width: 95% !important; /* slider takes 95% of total width */
-  margin: 10px !important;
-  background-color: black;
+  margin: none !important;
   --bs-gutter-x: 0rem !important;
 }
 
@@ -137,29 +137,10 @@ body {
   height: 20rem;
   background-position: center;
   background-size: cover;
-  cursor: pointer;
   justify-content: center;
   display: flex;
   align-items: center;
   transition: 0.5s;
-}
-
-.slide-img:hover {
-  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
-}
-
-.slide-img a {
-  opacity: 0;
-  text-decoration: none;
-  transform: scale(0);
-  transition: 0.8s;
-  font-size: 1.5rem;
-  color: white;
-}
-
-.slide-img:hover {
-  opacity: 1;
-  transform: scale(1);
 }
 
 .img-1 {

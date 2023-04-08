@@ -87,9 +87,12 @@ header {
   padding: 1vw 5vw;
 }
 
+/* food container starts */
+
 .food-container {
   justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 .food-container img {
@@ -99,7 +102,88 @@ header {
   padding-bottom: 1.5rem;
   padding-right: none;
   padding-left: none;
+  opacity: 1;
 }
+
+.subcontainer-img {
+  width: 100%;
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.subcontainer-img:hover {
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.subcontainer-img a {
+  opacity: 0;
+  text-decoration: none;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.subcontainer-img:hover a {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.img-ahhtoots {
+  background-image: url("https://secretbristol.com/wp-content/uploads/2023/02/Ahh-Toots-15-of-41_websize.jpg");
+}
+
+.img-alpmac {
+  background-image: url("https://i2-prod.bristolpost.co.uk/incoming/article5293368.ece/ALTERNATES/s1200b/1_Alp-Mac-1-credit-Becca-LugerJPG.jpg");
+}
+
+.img-bigbao {
+  background-image: url("https://myeagereats.com/wp-content/uploads/2021/09/wp-1630616914912-1024x683.jpg");
+}
+
+.img-bristolbeerfactory {
+  background-image: url("https://static.wixstatic.com/media/12695b_48b7f148fe5b4d198e69ae7c60aef2b5~mv2.jpg/v1/fill/w_639,h_427,q_90/12695b_48b7f148fe5b4d198e69ae7c60aef2b5~mv2.jpg");
+}
+
+.img-dangun {
+  background-image: url("https://fortworth.culturemap.com/media-library/two-hands-korean-corn-dog.jpg?id=31482771&width=2000&height=1500&quality=85&coordinates=0%2C30%2C0%2C31");
+}
+
+.img-dannysburgers {
+  background-image: url("https://www.bristol247.com/wp-content/uploads/2022/06/Dannys-Burgers-photo-Dannys-Burgers-2.jpg");
+}
+
+.img-dhamaka {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/18/2e/a5/87/street-food-selection.jpg");
+}
+
+.img-gurtwings {
+  background-image: url("https://www.addtoevent.co.uk/sites/default/files/styles/one_third/public/user/556837/supplier/images/img-20190219-wa0005.jpg");
+}
+
+.img-jostea {
+  background-image: url("https://d1ralsognjng37.cloudfront.net/93b25e46-8345-4e86-979b-66c5118561de.jpeg");
+}
+
+.img-thelittletaquero {
+  background-image: url("https://www.thelittletaquero.co.uk/wp-content/uploads/2018/06/Our-authentic-tacos.jpg");
+}
+
+.img-swoongelato {
+  background-image: url("https://www.swoononaspoon.co.uk/wp-content/uploads/sb-instagram-feed-images/332914613_168763182595800_5615321986510092024_nfull.jpg");
+}
+
+.img-woodchoppizza {
+  background-image: url("https://www.pizzandgo.com.au/wp-content/uploads/2021/09/pizza4.jpeg");
+}
+
+/*food container ends*/
 
 body {
   background-color: #ffd6a3 !important;
