@@ -87,6 +87,16 @@ header {
   padding: 1vw 5vw;
 }
 
+.header h1 {
+  font-family: "Barlow Semi Condensed";
+  font-size: 2.5rem;
+  padding: 2.5vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  text-align: center;
+  background-color: #ff914d;
+}
+
 /* food container starts */
 
 .food-container {
@@ -245,33 +255,6 @@ div.food-header h1 {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-/* 
-ol.breadcrumb {
-  background-color: #ff7f2f !important;
-  padding: 15px 15px 15px;
-  list-style: none;
-  margin: 0rem !important;
-}
-
-ol.breadcrumb-item {
-  display: inline;
-}
-
-ol.breadcrumb-item a {
-  text-decoration: none;
-}
-
-ol.breadcrumb li + li:before {
-  color: black;
-  content: ">>";
-}
-
-ol.breadcrumb li a:hover {
-  color: #ff9215;
-  text-decoration: underline;
-}
-*/
-
 /* traders - textbox and carousel starts */
 
 div.carousel-container {
@@ -317,8 +300,6 @@ div.carousel-container h1 {
   letter-spacing: 0.08em;
   color: rgb(0, 0, 0);
   font-family: "Barlow Semi Condensed";
-  margin-top: 0.4rem;
-  margin-bottom: 0.4rem;
 }
 
 div.carousel-container p {
@@ -332,6 +313,34 @@ div.carousel-container p {
 }
 
 /* traders - textbox and carousel ends */
+
+.btn {
+  display: block !important;
+}
+
+.return-btn {
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 10px;
+  font-family: "Barlow Semi Condensed";
+  border-radius: 10px;
+  background-color: #000000;
+  color: #ff914d;
+}
+
+.website-btn {
+  width: 20rem;
+  height: 2.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 10px;
+  font-family: "Barlow Semi Condensed";
+  border-radius: 10px;
+  background-color: #ff914d;
+  color: black;
+}
 
 footer {
   background-color: black;
@@ -395,6 +404,9 @@ footer .SM-buttons a {
     grid-row-start: 1;
     grid-row-end: 1;
     padding: 0rem !important;
+    display: flex !important;
+    justify-content: center !important; /* align horizontal */
+    align-items: center !important; /* align vertical */
   }
 
   div.right {
@@ -428,8 +440,6 @@ footer .SM-buttons a {
     font-weight: 900;
     letter-spacing: 0.03em;
     font-family: "Barlow Semi Condensed";
-    margin-top: 10rem;
-    margin-bottom: 1.3rem;
   }
 
   div.carousel-container p {
@@ -479,6 +489,9 @@ footer .SM-buttons a {
     grid-row-start: 1;
     grid-row-end: 1;
     padding: 0rem !important;
+    display: flex !important;
+    justify-content: center !important; /* align horizontal */
+    align-items: center !important; /* align vertical */
   }
 
   div.right {
@@ -512,7 +525,9 @@ footer .SM-buttons a {
     font-weight: 900;
     letter-spacing: 0.05em;
     font-family: "Barlow Semi Condensed";
-    margin-top: 10rem;
+    display: flex !important;
+    justify-content: center !important; /* align horizontal */
+    align-items: center !important; /* Align vertical */
   }
 
   div.carousel-container p {
