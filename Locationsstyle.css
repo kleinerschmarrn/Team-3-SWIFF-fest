@@ -1,3 +1,25 @@
+/*
+NOT MINE
+
+:root {
+  height: 100%;
+  background-color: black;
+}
+
+img {
+  display: block;
+}
+
+header {
+  border-top: 10vh solid black;
+  border-bottom: 0px;
+  margin: 0px;
+  border-top: 2vh solid black;
+  border-bottom: 0px;
+}
+
+*/
+
 /* navigation bar styling starts */
 
 .button {
@@ -84,8 +106,8 @@ img:hover {
 }
 
 /*end reset/
-  
-  /*body*/
+
+/*body*/
 
 .maincontent {
   color: #ff914d;
@@ -149,6 +171,22 @@ body {
   border-radius: 12%;
   object-fit: cover;
 }
+
+/*
+.Locationfigure {
+  justify-content: center;
+  text-align: center;
+}
+
+.locationfigure img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  padding-bottom: 1.5rem;
+  padding-right: none;
+  padding-left: none;
+
+  */
 
 .textbox {
   width: 50%;
@@ -250,6 +288,10 @@ footer .SM-buttons img {
 footer .SM-buttons a {
   text-decoration: none;
 }
+
+/* footer styling ends */
+
+/* media query - to change the styling when the screen size is greater than 768px */
 
 @media only screen and (min-width: 768px) {
   footer .SM-buttons img {
