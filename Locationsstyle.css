@@ -89,10 +89,6 @@ header {
 
 img {
   display: block;
-}
-
-img {
-  display: block;
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: gray; /* IE5+ */
   -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
@@ -111,7 +107,7 @@ img:hover {
 
 .maincontent {
   color: #ff914d;
-  background-image: url(/Images/Background_Image_BW.jpeg);
+  background-image: url(/Images/backgroundlocations.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
